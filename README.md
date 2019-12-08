@@ -6,7 +6,7 @@ Run Repro Web SDK on ANY wabsite.
 
 TODO:
 
-You can install via Chrome webstore.
+From Chrome webstore.
 
 
 ## Develop with Webpack auto-reload and HRM
