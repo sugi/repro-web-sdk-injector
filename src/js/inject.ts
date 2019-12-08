@@ -20,7 +20,9 @@ chrome.storage.local.get(['enabled', 'token'], (conf) => {
     s.type = 'text/javascript';
     s.async = !0;
     s.onload = function() {
+      console.log('loaded');
       reproio('setSnippetVersion', '2.0');
+      reproio._rpr.tracker._subscribe({}, console.log);
       reproio('setup', '${token.replace(/[^a-z0-9-]+/g, '')}', {log_level: 'info'});
       notice('injected');
     };

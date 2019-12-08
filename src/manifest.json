@@ -3,18 +3,18 @@
   "options_page": "options.html",
   "browser_action": {
     "default_popup": "popup.html",
-    "default_icon": "icon-34.png"
+    "default_icon": "rwi-128-d.png"
   },
   "background": {
     "page": "background.html",
-    "persistent": false
+    "persistent": true
   },
   "icons": {
     "128": "icon-128.png"
   },
   "permissions": [
     "storage",
-    "tabs",
+    "tabs"
   ],
   "content_scripts": [
     {

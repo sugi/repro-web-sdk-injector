@@ -1,5 +1,5 @@
 {
-  "name": "repro-injector",
+  "name": "repro-web-injector",
   "version": "0.1.0",
   "description": "Repro Web SDK injector: You can run Repro Web SDK on ANY website for demonstration.",
   "scripts": {
@@ -22,7 +22,7 @@
     "typescript": "^3.5.2",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14",
-    "write-file-webpack-plugin": "4.5.0"
+    "webpack-dev-server": "^3.7.2",
+    "write-file-webpack-plugin": "^4.5.0"
   }
 }
